@@ -1,11 +1,10 @@
 # Getting started with Hazelcast
-![/assets/hazelcast_1.png](/assets/hazelcast_1.png)
 
 ## Quick overview
 You can install Hazelcast with the help of a preconfigured Hazelcast Platform Operator.
 
 Also pay attention to the following:
-- You can find the examples of using a Hazelcast cluster [here](https://kb.epam.com/display/EPMPAASPUB/Examples).
+- For more examples of using a Hazelcast cluster, see the public kb page.
 - We are constantly monitoring security issues. You can see the results of these reports on the [Hazelcast Security Benchmark](https://kb.epam.com/display/EPMPAASPUB/Hazelcast+Security+Benchmark) page.
 
 ## How to get started
