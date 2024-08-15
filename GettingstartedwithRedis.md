@@ -24,7 +24,7 @@ To get started with Redis:
 3. Configure the parameters and click **PREVIEW AND DEPLOY**.<br>
 >[Redis AUTH](https://cloud.google.com/memorystore/docs/redis/about-redis-auth) is always enabled for the Service Catalog solution due to security risks in Shared VPC.<br>
 
-![assets/redis_3new.png](assets/redis_3new.png)
+![assets/redis_3new.png](redis_3new.png)
 
 | Parameter | Description | Example |
 | --------- | ----------- | ------- | 
@@ -43,7 +43,7 @@ To get started with Redis:
 
 4. Click **DEPLOY** when the button gets highlighted.
 Wait until the deployment is completed.<br>
-![assets/redis_4new.png](assets/redis_4new.png)
+![assets/redis_4new.png](redis_4new.png)
 5. To check the installation, do one of the following:<br>
     a. In the GCP console, go to [Memorystore](https://console.cloud.google.com/memorystore/redis/instances).<br>
     b. In the [terminal](https://cloud.google.com/shell/docs/launching-cloud-shell), use [gcloud CLI](https://cloud.google.com/sdk/docs/install-sdk).<br>
