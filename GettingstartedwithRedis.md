@@ -16,10 +16,10 @@ To get started with Redis:
 1. In [the Google Cloud console](https://console.cloud.google.com/getting-started), go to [Service Catalog](https://console.cloud.google.com/catalog), type **Redis** in the search box, and select **[CloudApp] Redis**.<br>
 >To log in, use the EPAM account (*Your_Name@epam.com*) and select your project (*EPM-< tenant >-ANTHOS*) to deploy the Redis solution.<br>
 
-![assets/redis_1.png](assets/redis_1.png)
+![assets/redis_1.png](redis_1.png)
 
 2. Read the description and click **DEPLOY**.<br>
-![assets/redis_2new.png](assets/redis_2new.png)
+![assets/redis_2new.png](redis_2new.png)
 
 3. Configure the parameters and click **PREVIEW AND DEPLOY**.<br>
 >[Redis AUTH](https://cloud.google.com/memorystore/docs/redis/about-redis-auth) is always enabled for the Service Catalog solution due to security risks in Shared VPC.<br>
