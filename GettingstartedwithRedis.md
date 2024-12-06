@@ -3,7 +3,7 @@
 ## Contents
 - [Overview](#overview)
 - [Deploy Redis from Service Catalog](#deploy-redis-from-service-catalog)
-- [Check the information about the Redis connection in Google Cloud Console](#check-the-information-about-the-redis-connection-in-google-cloud-console)
+- [Check the information about the Redis connection via Google Cloud Console](#check-the-information-about-the-redis-connection-via-google-cloud-console)
 - [Check the information about the Redis connection via Cloud Shell Terminal and gcloud CLI](#check-the-information-about-the-redis-connection-via-cloud-shell-terminal-and-gcloud-cli)
 - [Test the Redis connection](#test-the-redis-connection)
 - [Update and deprovision a Terraform deployment](#update-and-deprovision-a-terraform-deployment)
