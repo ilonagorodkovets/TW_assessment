@@ -51,7 +51,7 @@ The table includes a full list of all parameters available at this stage.
 - Cloud Shell Terminal and gcloud CLI.
 
 ## Check the information about the Redis connection in Google Cloud Console
-To check the information about the Redis connection via Google Cloud Console:<br>
+To check the information about the Redis connection via [Google Cloud Console](https://console.cloud.google.com/getting-started):<br>
 1. Go to Google Cloud Console.
 2. On **Navigation menu** ![assets/redis_5new.png](redis_5new.png), go to **Memorystore**. Here you can see **Instance ID** and **Primary Endpoint**.<br>
 ![assets/redis_6new.png](redis_6new.png)
