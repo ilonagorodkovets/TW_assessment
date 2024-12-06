@@ -72,12 +72,14 @@ export PROJECT_ID=or2-msq-epm-paas-b-t1iylu
 gcloud redis instances list --region=europe-west3 --project=$PROJECT_ID
 ```
 ![assets/redis_10new.png](redis_10new.png)<br>
+
 3. Note the information about **HOST**, **PORT**, and **INSTANCE NAME** instead of **Primary Endpoint**, **Location**, and **Instance ID**.
 
 ```
 INSTANCE_NAME      VERSION    REGION        TIER         SIZE_GB  HOST            PORT  NETWORK                   RESERVED_IP       STATUS  CREATE_TIME
 epm-acme-redis-01  REDIS_7_0  europe-west3  STANDARD_HA  1        100.100.250.12  6379  epm-paas-poc-shared-vpc1  100.100.250.8/29  READY   2023-10-27T11:46:27
 ```
+
 4. Get the authentication string of the created instance as follows:<br>
 
 ```
