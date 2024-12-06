@@ -1,15 +1,18 @@
 # Getting started with Redis
 
-## Contents
+## Table of contents
 - [Overview](#overview)
-- [Quick start using Service Catalog](#quick-start-using-service-catalog)
-- [Updating and deprovisioning](#updating-and-deprovisioning)
+- [Deploy Redis from Service Catalog](#deploy-redis-from-service-catalog)
+- [Check the information about the Redis connection in Google Cloud Console](#check-the-information-about-the-redis-connection-in-google-cloud-console)
+- [Check the information about the Redis connection via Cloud Shell Terminal and gcloud CLI](#check-the-information-about-the-redis-connection-via-cloud-shell-terminal-and-gcloud-cli)
+- [Test the Redis connection](#test-the-redis-connection)
+- [Update and deprovision a Terraform deployment](#update-and-deprovision-a-terraform-deployment)
 - [Useful resources](#useful-resources)
 
 ## Overview
-Memorystore for Redis provides a fully-managed service that is powered by the Redis in-memory data store to build application caches that provide sub-millisecond data access.
+Memorystore for Redis provides a fully-managed service powered by the Redis in-memory data store to build application caches that provide sub-millisecond data access.
 
-Solution from Service Catalog provides an additional private network configuration.
+The solution from Service Catalog provides an additional private network configuration.
 
 ## Quick start using Service Catalog
 To get started with Redis:
