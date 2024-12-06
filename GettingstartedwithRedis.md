@@ -53,7 +53,7 @@ The table includes a full list of all parameters available at this stage.
 ## Check the information about the Redis connection in Google Cloud Console
 To check the information about the Redis connection via Google Cloud Console:<br>
 1. Go to Google Cloud Console.
-2. On **Navigation menu** ![assets/redis_5new.png}(redis_5new.png), go to **Memorystore**. Here you can see **Instance ID** and **Primary Endpoint**.<br>
+2. On **Navigation menu** ![assets/redis_5new.png](redis_5new.png), go to **Memorystore**. Here you can see **Instance ID** and **Primary Endpoint**.<br>
 ![assets/redis_6new.png](redis_6new.png)
 3. Select the name of the created instance. After this, you can get the authentication string under **Auth String**. Save it for future use.<br>
 ![assets/redis_7new.png](redis_7new.png)
