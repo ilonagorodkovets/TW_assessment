@@ -53,14 +53,14 @@ The table includes a full list of all parameters available at this stage.
 ## Check the information about the Redis connection in Google Cloud Console
 To check the information about the Redis connection via Google Cloud Console:<br>
 1. Go to Google Cloud Console.
-2. On **Navigation menu**![assets/redis_5new.png}(redis_5new.png), go to **Memorystore**. Here you can see **Instance ID** and **Primary Endpoint**.<br>
+2. On **Navigation menu** ![assets/redis_5new.png}(redis_5new.png), go to **Memorystore**. Here you can see **Instance ID** and **Primary Endpoint**.<br>
 ![assets/redis_6new.png](redis_6new.png)
 3. Select the name of the created instance. After this, you can get the authentication string under **Auth String**. Save it for future use.<br>
 ![assets/redis_7new.png](redis_7new.png)
 
 ## Check the information about the Redis connection via Cloud Shell Terminal and gcloud CLI
 To check the information about the Redis connection via [Cloud Shell Terminal](https://cloud.google.com/shell/docs/launching-cloud-shell) and [gcloud CLI](https://cloud.google.com/sdk/docs/install-sdk):<br>
-1. In **Dashboard** select **Cloud Shell Terminal** (1) and **Activate Cloud Shell**![assets/redis_8new.png](redis_8new.png) (2).<br>
+1. In **Dashboard** select **Cloud Shell Terminal** (1) and **Activate Cloud Shell** ![assets/redis_8new.png](redis_8new.png) (2).<br>
 ![assets/redis_9new.png](redis_9new.png)
 2. Run the export `PROJECT_ID` and `gcloud redis instances list` commands as follows:<br>
 
@@ -71,7 +71,7 @@ export PROJECT_ID=or2-msq-epm-paas-b-t1iylu
 ```
 gcloud redis instances list --region=europe-west3 --project=$PROJECT_ID
 ```
-![assets/redis_10new.png](redis_10new.png)
+![assets/redis_10new.png](redis_10new.png)<br>
 3. Note the information about **HOST**, **PORT**, and **INSTANCE NAME** instead of **Primary Endpoint**, **Location**, and **Instance ID**.
 
 ```
