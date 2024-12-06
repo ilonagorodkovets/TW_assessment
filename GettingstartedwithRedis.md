@@ -15,7 +15,7 @@ Memorystore for Redis provides a fully-managed service powered by the Redis in-m
 The solution from Service Catalog provides an additional private network configuration.
 
 ## Deploy Redis from Service Catalog
-You can get started with Redis after deploying it from Service Catalog of [Google Cloud Console](https://console.cloud.google.com/getting-started).<br>
+You can get started with Redis after deploying it from Service Catalog of [Google Cloud Console](https://console.cloud.google.com/getting-started).<br><br>
 To deploy Redis:
 1. Go to Google Cloud Console.
 2. Sign in with your EPAM account credentials (*Your_Name@epam.com*), and then select your project.
@@ -78,7 +78,6 @@ gcloud redis instances list --region=europe-west3 --project=$PROJECT_ID
 INSTANCE_NAME      VERSION    REGION        TIER         SIZE_GB  HOST            PORT  NETWORK                   RESERVED_IP       STATUS  CREATE_TIME
 epm-acme-redis-01  REDIS_7_0  europe-west3  STANDARD_HA  1        100.100.250.12  6379  epm-paas-poc-shared-vpc1  100.100.250.8/29  READY   2023-10-27T11:46:27
 ```
-
 4. Get the authentication string of the created instance as follows:<br>
 
 ```
